@@ -206,7 +206,7 @@ In this task, you will package the application created in the previous steps.
 
 With a functional application being available, you now need to run unit tests to validate the application output.
 
-1. To run unit tests, create a new file, `test_EmotionDetection.py` that calls the required application function from the package and tests it for the following statements and dominant emotions.
+1. To run unit tests, create a new file, `test_emotion_detection.py` that calls the required application function from the package and tests it for the following statements and dominant emotions.
 
 	|Statement|Dominant Emotion|
 	|---------|-----------------|
@@ -217,13 +217,13 @@ With a functional application being available, you now need to run unit tests to
 	|I am really afraid that this will happen|fear|
 
 2. **Assessment:**
-   **For Option 1 - AI Graded Submission and Evaluation**: Copy and paste the code from the test_EmotionDetection.py file showing the required unit tests in a text file and save it as `5a_unit_testing` for the Final project submission and evaluation.
+   **For Option 1 - AI Graded Submission and Evaluation**: Copy and paste the code from the test_emotion_detection.py file showing the required unit tests in a text file and save it as `5a_unit_testing` for the Final project submission and evaluation.
 
     **For Option 2 -Peer-Graded Submission and Evaluation**: Take a **screenshot** of the code and save it as `5a_unit_testing.png`for Peer Assignment.
 
 
 
-3. Execute the `test_EmotionDetection.py` file on terminal.
+3. Execute the `test_emotion_detection.py` file on terminal.
 
 4. Check the unit test output to verify that the unit tests have passed.
 
@@ -372,7 +372,7 @@ Follow the submission checklist below if you are proceeding with **Option 1: AI-
 
 **-Task 5: Run unit tests on your application**
 
-* Activity 1: Submit the code from the test_EmotionDetection.py file showing the required unit tests.
+* Activity 1: Submit the code from the test_emotion_detection.py file showing the required unit tests.
 * Activity 2: Submit the terminal output showing that all unit tests passed.
 
 **-Task 6: Web deployment of the application using Flask**
