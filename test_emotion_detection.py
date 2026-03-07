@@ -1,12 +1,12 @@
-"""Tests for emotion_detection.py"""
+"""Tests for EmotionDetection.py"""
 
 
 import unittest
-from emotion_detection.emotion_detection import emotion_detector
+from EmotionDetection.emotion_detection import emotion_detector
 
 
 class TestEmotionDetection(unittest.TestCase):
-    """All test cases for emotion_detection.py"""
+    """All test cases for EmotionDetection.py"""
     def test_dominant_emotion_joy(self):
         """ Test dominant emotion: joy """
         emotions = emotion_detector("I am glad this happened")
