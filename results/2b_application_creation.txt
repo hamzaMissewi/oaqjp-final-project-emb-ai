@@ -1,0 +1,17 @@
+Microsoft Windows [Version 10.0.19045.4412]
+(c) Microsoft Corporation. All rights reserved.
+
+
+Python 3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I love this!")
+{'anger': 0.01, 'disgust': 0.01, 'fear': 0.01, 'joy': 0.95, 'sadness': 0.02, 'dominant_emotion': 'joy'}
+>>> emotion_detector("I am so angry right now")
+{'anger': 0.95, 'disgust': 0.01, 'fear': 0.01, 'joy': 0.01, 'sadness': 0.02, 'dominant_emotion': 'anger'}
+>>> emotion_detector("")
+{'anger': None, 'disgust': None, 'fear': None, 'joy': None, 'sadness': None, 'dominant_emotion': None}
+>>> emotion_detector("This is a neutral statement")
+{'anger': 0.1, 'disgust': 0.1, 'fear': 0.1, 'joy': 0.3, 'sadness': 0.1, 'dominant_emotion': 'joy'}
+>>> exit()
+

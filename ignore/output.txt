@@ -1,0 +1,25 @@
+https://github.com/hamzaMissewi/nlp-emotion-detector-flask/blob/main/emotion_detection/__init__.py
+
+cd "f:\Coursera\developing AI applications with python and flask\nlp-emotion-detector"; Invoke-WebRequest -Uri "http://127.0.0.1:5000/emotionDetector
+                                                                                                                             r?textToAnalyze="
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : Invalid text! Please try again!
+RawContent        : HTTP/1.1 200 OK
+                    Connection: close
+                    Content-Length: 31
+                    Content-Type: text/html; charset=utf-8
+                    Date: Sat, 07 Mar 2026 07:46:46 GMT
+                    Server: Werkzeug/3.1.6 Python/3.14.3
+
+                    Invalid text! Please try ag...
+Forms             : {}
+Headers           : {[Connection, close], [Content-Length, 31], [Content-Type, text/html; charset=utf-8], [Date, Sat, 07 Mar 2026 07:46:46 GMT]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 31
+

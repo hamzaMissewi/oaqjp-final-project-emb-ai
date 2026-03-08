@@ -1,0 +1,19 @@
+
+requests\adapters.py", line 665, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='sn-watson-emotion.labs.skills.network', port=443): Max retries exceeded with url: /v1/watson.runtime.nlp.v1/NlpService/EmotionPredict (Caused by ConnectTimeoutError(<HTTPSConnection(host='sn-watson-emotion.labs.skills.network', port=443) at 0x184e00442f0>, 'Connection to sn-watson-emotion.labs.skills.network timed out. (connect timeout=20)'))
+ * Detected change in 'F:\\Coursera\\developing AI applications with python and flask\\nlp-emotion-detector\\emotion_detection\\EmotionDetection.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 110-390-413
+ * Detected change in 'F:\\Coursera\\developing AI applications with python and flask\\nlp-emotion-detector\\emotion_detection\\EmotionDetection.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 110-390-413
+
+
+
+python -m pytest test_EmotionDetection.py -v
+
+
+I love this new technology

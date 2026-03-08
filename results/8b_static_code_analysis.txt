@@ -1,0 +1,6 @@
+************* Module EmotionDetection.emotion_detection
+emotion_detection\EmotionDetection.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
+emotion_detection\EmotionDetection.py:124:0: C0303: Trailing whitespace (trailing-whitespace)
+emotion_detection\EmotionDetection.py:181:0: C0303: Trailing whitespace (trailing-whitespace)
+----------------------------------
+Your code has been rated at 9.47/10
