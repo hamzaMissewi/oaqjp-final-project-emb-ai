@@ -2,16 +2,16 @@ import os
 import subprocess
 
 with open("results/2a_EmotionDetection.txt", "w") as f:
-    with open("EmotionDetection/EmotionDetection.py", "r") as epy:
+    with open("EmotionDetection/emotion_detection.py", "r") as epy:
         f.write(epy.read())
 
 with open("results/2b_application_creation.txt", "w") as f:
-    f.write(">>> from EmotionDetection.EmotionDetection import emotion_detector\n")
+    f.write(">>> from EmotionDetection.emotion_detection import emotion_detector\n")
     f.write(">>> emotion_detector('I love this new technology')\n")
     f.write("{'anger': 0.01364663, 'disgust': 0.0017160787, 'fear': 0.008986978, 'joy': 0.9719017, 'sadness': 0.055187024, 'dominant_emotion': 'joy'}\n")
 
 with open("results/3a_output_formatting.txt", "w") as f:
-    with open("EmotionDetection/EmotionDetection.py", "r") as epy:
+    with open("EmotionDetection/emotion_detection.py", "r") as epy:
         f.write(epy.read())
         
 with open("results/3b_formatted_output_test.txt", "w") as f:
@@ -36,7 +36,7 @@ with open("results/6a_server.txt", "w") as f:
         f.write(py.read())
         
 with open("results/7a_error_handling_function.txt", "w") as f:
-    with open("EmotionDetection/EmotionDetection.py", "r") as py:
+    with open("EmotionDetection/emotion_detection.py", "r") as py:
         f.write(py.read())
 
 with open("results/7b_error_handling_server.txt", "w") as f:

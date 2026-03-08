@@ -1,6 +1,8 @@
 <a id="readme-top"></a>
 
-# Final project
+# Final Project
+
+**Project Name: Final Project**
 <!-- TABLE OF CONTENTS -->
 <details open>
   <summary>Table of Contents</summary>

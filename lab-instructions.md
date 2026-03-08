@@ -467,12 +467,3 @@ By completing this project, you have:
 
 ### Ratima Raj Singh
 ## <h3 align="center"> © IBM Corporation. All rights reserved. <h3/>
-<!--
-## Changelog
-
-| Date | Version | Changed by | Change Description |
-|------|--------|--------|---------|
-| 03.11.2025 | 1.0 | Ratima Raj Singh | Initial version created |
-
-
-## <h
