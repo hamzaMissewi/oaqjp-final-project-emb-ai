@@ -1,6 +1,0 @@
-https://github.com/christian-schw/nlp-emotion-detector.git
-
-https://github.com/hamzaMissewi/nlp-emotion-detector-flask.git
-
-https://github.com/hamzaMissewi/nlp-emotion-detector-flask/blob/main/emotion_detection/__init__.py
-https://github.com/hamzaMissewi/nlp-emotion-detector-flask/blob/main/README.md
